@@ -2,6 +2,7 @@
     height: 200px;
     width: 135px;
     border: 3px solid white;
+    margin: 2px 0px 2px 0px;
 }
 
 
@@ -27,17 +28,20 @@ background-position: top right;
     display: flex;
     flex-direction: row ;
     border: 2px black;
+    flex-wrap: wrap;
 }
 .movies{
     width: 50 px;
     padding: 5px 5px 5px 5px;
     margin: 0px 5px 0px 5px;
-    border: 3px solid black
+    border: 3px solid black;
+    flex-wrap: wrap;
 }
 
 .item{
     display: flex;
     flex-direction: row ;
+    flex-wrap: wrap;
 }
 #b1{
     /* box-align: center;
